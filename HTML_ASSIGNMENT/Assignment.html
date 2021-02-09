@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>W3SCHOOL</title>
+
+</head>
+
+<body style="padding-left: 10px">
+	
+
+<!--LOGO-->
+
+<div style="width:100%;height:100px;margin:0px auto">
+
+
+<div style="width:30%;height:100px;float:left;padding-bottom: 0px">	
+
+	<img src="logo.jpg"style="width:400px;height: 100px;">
+
+</div>
+
+<div style="width:70%;height:100px;margin-left:30%">
+	
+<div style="padding-left:15px;padding-top:40px;font-size:40px">
+
+	THE WORLD'S LARGEST WEBDEVELOPER SITE
+	
+</div>
+
+</div>
+
+</div>
+
+
+<!---->
+
+<hr>
+	
+	
+	<div  style="height:50px; width:100%; overflow: hidden;">
+    <div  style="float: left; padding-top:30px; width:20%;"><a href="https://www.w3schools.com/html/default.asp" target="_blank"><b>HTML</b></a></div>
+    <div  style="float: left;padding-top:30px; width:20%; "><a href="https://www.w3schools.com/css/default.asp" target="_blank"><b>CSS</b></a></div>
+    <div  style="float: left;padding-top:30px; width:20%; "><a href="https://www.w3schools.com/js/default.asp" target="_blank"><b>JAVASCRIPT</b></a></div>
+    <div  style="float: left; width:20%;padding-top:30px "><a href="https://www.w3schools.com/python/default.asp" target="_blank"><b>PYTHON</b></a></div>
+
+
+</div>
+
+<hr>
+	
+	<section >
+
+		<h1>HTML INTRODUCTION</h1>
+		<p>HTML is the standard markup language for creating web pages.</p>
+		<ol>
+			<li><a href="#HTML">What is HTML.</a></li>
+			<li><a href="#HTMLELEMENT">What is HTML elements.</a></li>
+			<li><a href="#WEB">Web Browsers.</a></li>
+		</ol>
+
+		<h2 id="HTML">What is HTML?</h2>
+
+		<ul>
+			<li>HTML stands for Hyper Text Markup Language</li>
+			<li>HTML is the standard markup language for creating Web pages</li>
+			<li>HTML describes the structure of a Web page</li>
+			<li>HTML consists of a series of elements</li>
+			<li>HTML elements tell the browser how to display the content</li>
+			<li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+		</ul>
+
+
+		<h2 id="HTMLELEMENT">What is an HTML Element?</h2>
+
+		<p><h4>An HTML element is defined by a start tag, some content, and an end tag:</h4></p>
+
+<p style="padding-left:15px"><span style="color:blue"><</span><span style="color:red">tagname</span><span style="color:blue">></span><b>Content goes here...</b><span style="color:blue"><</span><span style="color:red">/tagname</span><span style="color:blue">></span></p>
+
+
+<p>The HTML element is everything from the start tag to the end tag:</p>
+
+<p style="padding-left:15px"><span style="color:blue"><</span><span style="color:red">h1</span><span style="color:blue">></span><b>My First Heading</b><span style="color:blue"><</span><span style="color:red">/h1</span><span style="color:blue">></span></p>
+
+
+
+<p style="padding-left:15px"><span style="color:blue"><</span><span style="color:red">p</span><span style="color:blue">></span><b>My first paragraph.</b><span style="color:blue"><</span><span style="color:red">/p</span><span style="color:blue">></span></p>
+	</section>
+
+
+<!--Table-->
+
+
+<section>
+
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid grey;
+  text-align: left;
+  padding: 8px;
+}
+
+</style>
+
+<table>
+  <tr>
+    <th>Start tag</th>
+    <th>Element content</th>
+    <th>End tag</th>
+  </tr>
+  <tr>
+    <td>< h1 ></td>
+    <td>My First Heading</td>
+    <td>< /h1 ></td>
+  </tr>
+  <tr>
+    <td>< p ></td>
+    <td>My first paragraph.</td>
+    <td>< /p ></td>
+  </tr>
+  <tr>
+    <td>< br ></td>
+    <td><i>none</i></td>
+    <td><i>none</i></td>
+  </tr>
+
+</table>
+</section>
+
+<!---->
+
+
+<section>
+	<h2 id="WEB">Web Browsers</h2>
+	<p>The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read HTML documents and display them correctly.</p>
+	<p>A browser does not display the HTML tags, but uses them to determine how to display the document:</p>
+	<center><img src="web-browser.jpg"></center>
+
+</section>
+
+
+<!--FORM-->
+
+<section>
+
+	<h3>Submit a Review </h3>
+
+<form action="shashank.php" target="_blank" method="get">
+
+	Name:<input type="text" name="">
+<input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label><br><br>
+
+  <label for="rate">rate it:</label>
+
+<select id="rate">
+  <option value="very good">very good</option>
+  <option value="good">good</option>
+  <option value="average">average</option>
+  <option value="low">low</option>
+</select>
+<br><br>
+
+<textarea name="message" rows="10" cols="30">Please add a review.</textarea>
+  <br><br>
+  <input type="submit" value="submit">
+</form>
+</section>
+
+<!---->
+
+</body>
+</html>
